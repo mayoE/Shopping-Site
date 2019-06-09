@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Store</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--Navigation Bar-->
+    <nav id="nv" class="navbar navbar-light nav-tabs navbar-expand-sm sticky-top">
+        <a href="index.html" class="navbar-brand">BES</a>
+        <button type="button" class="navbar-toggler" data-target="#navbar-collapsible" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar-collapsible" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="store.html" class="nav-link active">Store</a></li>
+        </ul>
+        <button class="btn"><img src="media/blue_shopping_cart.png" alt="cart" height="30px" width="50px"></button>
+    </div>
+    </nav>
+
+        <!--Carousel at the top-->
+    <div class="container-fluid" style="padding: 20px">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="media/slider1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="media/slider2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Dress To Impress</h2>
+                    <p>Suit up in our all new collection!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="media/slider3.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2  style="color: rgb(230, 199, 27); background-color: white;">Don't Miss Out On All The New Summer Items!</h2>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+    </div>
+
+    <div  class="container-fluid">
+        <div class="row">
+          <!--Lists on the left-->
+            <div id="content" class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item active"><h4>Men</h4></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="#">Shirts</a>
+                                    <!--Bootstrap badges-->
+                              <span class="badge badge-primary badge-pill">40</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#">Tops</a>
+                                    <span class="badge badge-primary badge-pill">50</span>
+                                  </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="#">Pants & Shorts</a>
+                              <span class="badge badge-primary badge-pill">70</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="#">Shoes</a> 
+                              <span class="badge badge-primary badge-pill">25</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="#">Accessories</a>
+                                    <span class="badge badge-primary badge-pill">95</span>
+                                  </li>
+                          </ul>
+                          <ul id="content" class="list-group">
+                                <li class="list-group-item active"><h4>Women</h4></li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <a href="#">Dresses</a>
+                                      <span class="badge badge-primary badge-pill">75</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <a href="#">Tops</a>
+                                            <span class="badge badge-primary badge-pill">140</span>
+                                          </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <a href="#">Pants & Shorts</a>
+                                      <span class="badge badge-primary badge-pill">60</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            <a href="#">Shoes</a>
+                                      <span class="badge badge-primary badge-pill">250</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: lightblue">
+                                            <a href="#">Accessories</a>
+                                            <span class="badge badge-primary badge-pill">65</span>
+                                          </li>
+                                  </ul>
+            </div>
+            
+                <!--Items on the right-->
+                <div class="col-md-3" style="margin-top: 20px;">
+                    <img src="media/content1.jpg" alt="Bags" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Stylish Bag</a></div>
+                    <p class="text-center">$125.00</p>
+                    <img src="media/content2.jpg" alt="Bag" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Watch</a></div>
+                    <p class="text-center">$1,250.00</p>
+                    <img src="media/content7.jpg" alt="Necklace" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Heart Necklace</a></div>
+                    <p class="text-center">$370.00</p>
+            </div>
+            <div class="col-md-3" style="margin-top: 20px;">
+                    <img src="media/content4.jpg" alt="Watch" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Eastern Bag</a></div>
+                    <p class="text-center">$205.00</p>
+                    <img src="media/content5.jpg" alt="Earing" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Twin Jewel Earings</a></div>
+                    <p class="text-center">$115.00</p>
+                    <img src="media/content6.jpg" alt="Shoes" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Dual Fin Earings</a></div>
+                    <p class="text-center">$125.00</p>
+            </div>
+            <div class="col-md-3" style="margin-top: 20px;">
+                    <img src="media/content3.jpg" alt="Shoes" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Black Bag</a></div>
+                    <p class="text-center">$110.00</p>
+                    <img src="media/content8.jpg" alt="Shoes" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Dolphin Tail Earings</a></div>
+                    <p class="text-center">$125.00</p>
+                    <img src="media/content9.jpg" alt="Shoes" class="img-fluid" style="margin-bottom: 5px;">
+                    <div class="text-center"><a href="#">Blue Jeweled Heart Necklace</a></div>
+                    <p class="text-center">$230.00</p>
+            </div>
+        </div>
+
+        <!--Page Navigation-->
+        <nav style="margin-top: 10px;">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">>></a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+    </div>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+</body>
+</html>

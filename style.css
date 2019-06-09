@@ -2,6 +2,13 @@
 #nv{
     background-color: white;
 }
+ /*For list items*/
+ #content{
+    margin-top: 20px;
+}
+#content a{
+ text-decoration: none;   
+}
 *{
     margin: 0;
     padding: 0;
